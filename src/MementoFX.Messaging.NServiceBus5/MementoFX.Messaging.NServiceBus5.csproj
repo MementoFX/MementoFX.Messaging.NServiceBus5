@@ -12,19 +12,16 @@
     <Product>MementoFX</Product>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <DocumentationFile>bin\$(Configuration)\MementoFX.Messaging.NServiceBus5.XML</DocumentationFile>
+    <Description>A NServiceBus v5 powered event dispatcher for MementoFX</Description>
+    <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
+    <PackageTags>mementofx, NServiceBus, bus, cqrs, ddd</PackageTags>
+    <Version>1.0.0-pre1</Version>    
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
-    <Description>A NServiceBus v5 powered event dispatcher for MementoFX</Description>
-    <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
-    <PackageTags>mementofx, NServiceBus, bus, cqrs, ddd</PackageTags>
-    <Version>1.0.0-pre1</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MementoFX" Version="2.0.0" />
